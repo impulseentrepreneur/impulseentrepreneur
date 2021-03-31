@@ -411,7 +411,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .titular{
   margin: 0 0px 10px 0px;
-    font-size: 40px;
+    font-size: 34px;
     font-weight: 700;
     line-height: 44px;
     color: rgba(255, 255, 255);
@@ -818,7 +818,7 @@ label{
 }
 
 .about .icon-box .title {
-  margin-left: 85px;
+  margin-left: 15px;
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 18px;
