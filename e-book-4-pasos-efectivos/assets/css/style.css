@@ -841,7 +841,7 @@ label{
 
 .about .video-box {
   background: url("../img/hero-img.png") center center no-repeat;
-  background-size: 300px;
+  background-size: 546px;
   min-height: 300px;
 }
 
@@ -849,7 +849,7 @@ label{
 
 .about .video-box {
   background: url("../img/hero-img.png") center center no-repeat;
-  background-size: 230px;
+  background-size: 386px;
   min-height: 300px;
 }
 }
