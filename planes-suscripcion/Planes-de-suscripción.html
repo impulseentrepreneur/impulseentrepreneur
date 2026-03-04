@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planes de Lectura - Impulse Entrepreneur</title>
+    <!-- Incluimos Tailwind CSS vía CDN para los estilos -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-gray-50 font-sans flex flex-col">
+
+    <!-- Header con Logo centrado -->
+    <header class="bg-[#4122D9] w-full py-5 shadow-lg">
+        <div class="flex justify-center items-center px-4">
+            <img 
+                src="Proyecto nuevo (3).png" 
+                alt="Impulse Entrepreneur Logo" 
+                class="h-12 sm:h-16 w-auto object-contain"
+                onerror="this.style.display='none'; document.getElementById('logo-fallback').style.display='flex';"
+            />
+            <!-- Fallback visual de logo en caso de que la imagen no cargue -->
+            <div id="logo-fallback" class="hidden items-center gap-3 text-white" style="display: none;">
+                <div class="bg-white text-[#4122D9] font-black text-2xl px-2 py-1">
+                    IE
+                </div>
+                <div class="flex flex-col font-bold text-xl leading-none tracking-wide">
+                    <span>Impulse</span>
+                    <span>Entrepreneur</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-1 py-12 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            
+            <!-- Encabezado Principal -->
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-[#4122D9] font-semibold tracking-wide uppercase text-sm mb-2">Planes de Lectura</h2>
+                <h1 class="text-4xl font-extrabold text-gray-900 sm:text-5xl mb-4">
+                    Conocimiento de alto impacto
+                </h1>
+                <p class="text-xl text-gray-500">
+                    Accede a las ideas clave de los mejores libros de negocios, liderazgo y desarrollo personal en solo 15 minutos.
+                </p>
+            </div>
+
+            <!-- Tarjetas de Precios -->
+            <div class="grid grid-cols-1 gap-8 lg:grid-cols-3 items-start max-w-6xl mx-auto pt-4">
+                
+                <!-- Tarjeta 1: Plan Mensual -->
+                <div class="relative flex flex-col rounded-2xl shadow-lg transition-all duration-300 bg-white text-gray-900 border border-gray-200 hover:shadow-xl">
+                    <div class="p-8 flex-1">
+                        <h3 class="text-2xl font-bold mb-2 mt-2 text-gray-900">Plan Mensual</h3>
+                        <p class="mb-6 text-sm h-10 text-gray-500">Ideal para empezar. Lee o escucha resúmenes a tu propio ritmo.</p>
+                        
+                        <div class="mb-6 flex items-baseline text-5xl font-extrabold">
+                            $9<span class="ml-1 text-xl font-medium text-gray-500">/mes</span>
+                        </div>
+
+                        <ul class="space-y-4 mb-8">
+                            <li class="flex items-start">
+                                <div class="flex-shrink-0">
+                                    <svg class="h-5 w-5 text-[#4122D9]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </div>
+                                <p class="ml-3 text-sm">Acceso ilimitado a +500 resúmenes</p>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="flex-shrink-0">
+                                    <svg class="h-5 w-5 text-[#4122D9]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </div>
+                                <p class="ml-3 text-sm">Formatos texto y audio (15 min)</p>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="flex-shrink-0">
+                                    <svg class="h-5 w-5 text-[#4122D9]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </div>
+                                <p class="ml-3 text-sm">Nuevos títulos de negocios cada semana</p>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="flex-shrink-0">
+                                    <svg class="h-5 w-5 text-[#4122D9]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </div>
+                                <p class="ml-3 text-sm">Cancela cuando quieras</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="p-8 pt-0 mt-auto">
+                        <a href="https://pay.hotmart.com/H104752696O?off=ilne5934" target="_blank" rel="noopener noreferrer" class="w-full block text-center rounded-lg px-6 py-4 text-sm font-bold transition-colors duration-200 bg-[#4122D9] text-white hover:bg-[#341aa8]">
+                            Elegir Mensual
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Tarjeta 2: Plan Anual (Destacado) -->
+                <div class="relative flex flex-col rounded-2xl shadow-lg transition-all duration-300 bg-[#4122D9] text-white transform md:-translate-y-4 md:scale-105 z-10 border-2 border-[#4122D9]">
+                    <!-- Etiqueta Mejor precio -->
+                    <div class="absolute top-0 inset-x-0 flex justify-center -mt-4">
+                        <span class="inline-flex rounded-full px-4 py-1 text-sm font-bold shadow-sm tracking-wide uppercase bg-white text-[#4122D9]">
+                            Mejor precio
+                        </span>
+                    </div>
+
+                    <div class="p-8 flex-1">
+                        <h3 class="text-2xl font-bold mb-2 mt-2 text-white">Plan Anual</h3>
+                        <p class="mb-6 text-sm h-10 text-blue-100">El favorito de los fundadores. Comprométete con tu crecimiento y ahorra.</p>
+                        
+                        <div class="mb-6 flex items-baseline text-5xl font-extrabold">
+                            $99<span class="ml-1 text-xl font-medium text-blue-100">/año</span>
+                        </div>
+
+                        <ul class="space-y-4 mb-8">
+                            <li class="flex items-start">
+                                <div class="flex-shrink-0">
+                                    <svg class="h-5 w-5 text-blue-200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </div>
+                                <p class="ml-3 text-sm">Todo lo del plan mensual</p>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="flex-shrink-0">
+                                    <svg class="h-5 w-5 text-blue-200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </div>
+                                <p class="ml-3 text-sm">Guías prácticas de implementación</p>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="flex-shrink-0">
+                                    <svg class="h-5 w-5 text-blue-200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </div>
+                                <p class="ml-3 text-sm">Acceso a comunidad VIP de emprendedores</p>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="flex-shrink-0">
+                                    <svg class="h-5 w-5 text-blue-200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </div>
+                                <p class="ml-3 text-sm">Ahorras 1 mes de suscripción</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="p-8 pt-0 mt-auto">
+                        <a href="https://pay.hotmart.com/H104752696O?off=6q2y8hzt" target="_blank" rel="noopener noreferrer" class="w-full block text-center rounded-lg px-6 py-4 text-sm font-bold transition-colors duration-200 bg-white text-[#4122D9] hover:bg-gray-100">
+                            Elegir Anual
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Tarjeta 3: 3 Cuotas -->
+                <div class="relative flex flex-col rounded-2xl shadow-lg transition-all duration-300 bg-white text-gray-900 border border-gray-200 hover:shadow-xl">
+                    <!-- Etiqueta Sin Interés -->
+                    <div class="absolute top-0 inset-x-0 flex justify-center -mt-4">
+                        <span class="inline-flex rounded-full px-4 py-1 text-sm font-bold shadow-sm tracking-wide uppercase bg-[#4122D9] text-white">
+                            Sin Interés
+                        </span>
+                    </div>
+
+                    <div class="p-8 flex-1">
+                        <h3 class="text-2xl font-bold mb-2 mt-2 text-gray-900">3 Cuotas</h3>
+                        <p class="mb-6 text-sm h-10 text-gray-500">Obtén tu pase anual pagando en 3 cómodas cuotas de $36 (Total: $108).</p>
+                        
+                        <div class="mb-6 flex items-baseline text-5xl font-extrabold">
+                            $36<span class="ml-1 text-xl font-medium text-gray-500">/cuota</span>
+                        </div>
+
+                        <ul class="space-y-4 mb-8">
+                            <li class="flex items-start">
+                                <div class="flex-shrink-0">
+                                    <svg class="h-5 w-5 text-[#4122D9]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </div>
+                                <p class="ml-3 text-sm">Todo lo del plan mensual</p>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="flex-shrink-0">
+                                    <svg class="h-5 w-5 text-[#4122D9]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </div>
+                                <p class="ml-3 text-sm">Guías prácticas de implementación</p>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="flex-shrink-0">
+                                    <svg class="h-5 w-5 text-[#4122D9]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </div>
+                                <p class="ml-3 text-sm">Acceso a comunidad VIP de emprendedores</p>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="flex-shrink-0">
+                                    <svg class="h-5 w-5 text-[#4122D9]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </div>
+                                <p class="ml-3 text-sm">0% de recargo por financiamiento</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="p-8 pt-0 mt-auto">
+                        <a href="https://pay.hotmart.com/H104752696O?off=2km19ahg" target="_blank" rel="noopener noreferrer" class="w-full block text-center rounded-lg px-6 py-4 text-sm font-bold transition-colors duration-200 bg-[#4122D9] text-white hover:bg-[#341aa8]">
+                            Elegir 3 Cuotas
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+</body>
+</html>
